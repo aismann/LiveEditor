@@ -1,5 +1,5 @@
 # Live::Editor
-The world's first(*) "Live" (Scene) Editor     
+The world's first(*) "Live" :: Editor     
 
 The big new feature is:
 “Live::Editor” works together with you on your running Axmol game!
