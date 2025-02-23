@@ -1,5 +1,5 @@
 # Axmol's Sprite Editor
-The world's first "live" Scene Editor     (*)
+The world's first(*) "live" Scene Editor     
 
 The big new feature is:
 “Axmol's Scene Editor” works together with you on your running Axmol game!
