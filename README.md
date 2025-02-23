@@ -18,7 +18,15 @@ Realising games in minutes will be possible.
 
 For what standing the :: ?
 
-Thats the place holder for something like: :Scene:, :Sprite:, :PhysicsSprite:, etc.
-So it can also called: LiveSceneEditor, LiveSpriteEditor, LivePhysicsSpriteEditor, etc.
+Thats the place holder for something like: 
+- :Scene:,
+- :Sprite:,
+- :PhysicsSprite:,
+- :etc:
+So it can also called: 
+- LiveSceneEditor,
+- LiveSpriteEditor,
+- LivePhysicsSpriteEditor,
+- etc.
 
 (*) as far as I'm know ;)
