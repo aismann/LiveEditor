@@ -12,7 +12,7 @@ The interaction with your game is permanent and you be at the same time:
 
 In a word:
 
-You be the Winner using “Axmol's Scene Editor” writing your next game!
+You be the **Winner** using “Axmol's Scene Editor” writing your next game!
 
 Realising games in minutes will be possible.
 
