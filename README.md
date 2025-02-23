@@ -1,5 +1,5 @@
 # Axmol Live Editor
-The world's first(*) "live" Scene Editor     
+The world's first(*) "Live" (Scene) Editor     
 
 The big new feature is:
 “Axmol Live Editor” works together with you on your running Axmol game!
