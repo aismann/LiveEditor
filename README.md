@@ -1,4 +1,4 @@
-# AxmolSpriteEditor
+# Axmol's Sprite Editor
 The world's first "live" Scene Editor     (*)
 
 The big new feature is:
