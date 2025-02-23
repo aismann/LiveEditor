@@ -14,6 +14,6 @@ In a word:
 
 You be the Winner using “Axmol's Scene Editor” writing your next game!
 
-Writting games in minutes will be possible.
+Realising games in minutes will be possible.
 
 (*) as far as I'm know ;)
