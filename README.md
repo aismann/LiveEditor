@@ -8,7 +8,7 @@ The interaction with your game is permanent and you be at the same time:
 
 - Artist
 - Player
-- Game-/Level-/UI Designer
+- Designer (Game-/Level-/UI)
 - Developer
 
 In a word:
