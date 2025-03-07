@@ -27,6 +27,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 -->
+![image](https://github.com/user-attachments/assets/c3e64d44-5fc3-436c-92fc-9188189bf805)
 
 # Live::Editor  @@@  under construction @@@
 The world's first(*) "Live" :: Editor     
