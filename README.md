@@ -50,6 +50,33 @@ So it can also called:
 
 ### Built With
 
+#if defined(AX_PLATFORM_PC) || (AX_TARGET_PLATFORM == AX_PLATFORM_ANDROID) || defined(__EMSCRIPTEN__)
+#    include "LiveEditor/LiveEditor.h"
+#endif
+
+using namespace ax;
+USING_NS_AX_EXT;
+
+
+void TestCase::onEnter()
+{
+    Scene::onEnter();
+
+#if defined(AX_PLATFORM_PC) || (AX_TARGET_PLATFORM == AX_PLATFORM_ANDROID) || defined(__EMSCRIPTEN__)
+    extension::LiveEditor::getInstance()->startPoint(this);
+#endif
+}
+
+
+
+void TestCase::onExit()
+{
+#if defined(AX_PLATFORM_PC) || (AX_TARGET_PLATFORM == AX_PLATFORM_ANDROID) || defined(__EMSCRIPTEN__)
+    extension::LiveEditor::getInstance()->close();
+#endif
+    Scene::onExit();
+}
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
