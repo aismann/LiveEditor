@@ -40,25 +40,15 @@ So it can also called:
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+### How to add Live::Editor to your project
 
-![image](https://github.com/user-attachments/assets/6d79a2fe-6ff7-4e53-bebc-dca1ee25ed10)
-
-
-
-
-### Built With
 
 #if defined(AX_PLATFORM_PC) || (AX_TARGET_PLATFORM == AX_PLATFORM_ANDROID) || defined(__EMSCRIPTEN__)
 #    include "LiveEditor/LiveEditor.h"
 #endif
 
-using namespace ax;
-USING_NS_AX_EXT;
 
-
-void TestCase::onEnter()
+void <yourscene>::onEnter()
 {
     Scene::onEnter();
 
@@ -69,54 +59,11 @@ void TestCase::onEnter()
 
 
 
-void TestCase::onExit()
+void <yourscene>::onExit()
 {
 #if defined(AX_PLATFORM_PC) || (AX_TARGET_PLATFORM == AX_PLATFORM_ANDROID) || defined(__EMSCRIPTEN__)
     extension::LiveEditor::getInstance()->close();
 #endif
     Scene::onExit();
 }
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-
-### Prerequisites
-
-
-
-### Installation
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-
-
-## License
-
-
-
-<!-- CONTACT -->
-## Contact
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-
-
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
 
