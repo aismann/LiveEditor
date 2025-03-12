@@ -24,46 +24,21 @@ For what standing the :: ?
 
 Thats the place holder for something like: 
 
-- :Scene:,
-- :Sprite:,
-- :PhysicsSprite:,
+- :Scene:
+- :Sprite:
+- :PhysicsSprite:
 - :etc:
   
 So it can also called: 
 
-- LiveSceneEditor,
-- LiveSpriteEditor,
-- LivePhysicsSpriteEditor,
-- etc.
+- LiveSceneEditor
+- LiveSpriteEditor
+- LivePhysicsSpriteEditor
+- etc
 
 (*) as far as I'm know ;)
 
 
 
 ### How to add Live::Editor to your project
-
-
-#if defined(AX_PLATFORM_PC) || (AX_TARGET_PLATFORM == AX_PLATFORM_ANDROID) || defined(__EMSCRIPTEN__)
-#    include "LiveEditor/LiveEditor.h"
-#endif
-
-
-void <yourscene>::onEnter()
-{
-    Scene::onEnter();
-
-#if defined(AX_PLATFORM_PC) || (AX_TARGET_PLATFORM == AX_PLATFORM_ANDROID) || defined(__EMSCRIPTEN__)
-    extension::LiveEditor::getInstance()->startPoint(this);
-#endif
-}
-
-
-
-void <yourscene>::onExit()
-{
-#if defined(AX_PLATFORM_PC) || (AX_TARGET_PLATFORM == AX_PLATFORM_ANDROID) || defined(__EMSCRIPTEN__)
-    extension::LiveEditor::getInstance()->close();
-#endif
-    Scene::onExit();
-}
-
+[See here](https://github.com/aismann/LiveEditor/discussions/4)
