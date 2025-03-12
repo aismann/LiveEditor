@@ -1,7 +1,7 @@
 
 ![image](https://github.com/user-attachments/assets/c3e64d44-5fc3-436c-92fc-9188189bf805)
 
-# Live::Editor  @@@  under construction @@@
+# Live::Editor
 The world's first(*) "Live" :: Editor     
 
 The big new feature is:
