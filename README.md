@@ -1,11 +1,10 @@
 
 ![image](https://github.com/user-attachments/assets/c3e64d44-5fc3-436c-92fc-9188189bf805)
 
-# Live::Editor
-The world's first(*) "Live" :: Editor     
+# The world's first(*) "Live" :: Editor     
 
 The big new feature is:
-“Live::Editor” works together with you on your running Axmol game!
+“Live::Editor” works together with you on your **running** Axmol game!
 
 The interaction with your game is permanent and you be at the same time:
 
@@ -14,13 +13,13 @@ The interaction with your game is permanent and you be at the same time:
 - Designer (Game-/Level-/UI)
 - Developer
 
-In a word:
+Realising games in minutes will be possible.
+
+## In a word:
 
 You be the **Winner** using “Live::Editor” writing your next game!
 
-Realising games in minutes will be possible.
-
-For what standing the :: ?
+For what standing the **::** ?
 
 Thats the place holder for something like: 
 
