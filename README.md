@@ -4,7 +4,7 @@
 # The world's first(*) "Live" :: Editor     
 
 The big new feature is:
-“Live::Editor” works together with you on your **running** Axmol game!
+“Live::Editor” ```works together with you on your *running*``` Axmol game!
 
 The interaction with your game is permanent and you be at the same time:
 
