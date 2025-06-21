@@ -20,7 +20,7 @@ You be the **Winner** using “Live::Editor” writing your next game!
 
 For what standing the **::** ?
 
-Thats the "Logo" of the Live::Editor and stand also as a place holder for something like: 
+Thats the "Logo" of the Live::Editor and stand also as :place holder: for something like: 
 
 - :Scene:
 - :Sprite:
