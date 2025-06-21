@@ -35,8 +35,3 @@ So it can also called:
 - etc
 
 (*) as far as I'm know ;)
-
-
-
-### How to add Live::Editor to your project
-[See here](https://github.com/aismann/LiveEditor/discussions/4)
