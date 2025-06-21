@@ -1,7 +1,7 @@
 
 ![image](https://github.com/user-attachments/assets/c3e64d44-5fc3-436c-92fc-9188189bf805)
 
-# The world's first(*) "Live" :: Editor     (Work In Progress)
+# The world's first(*) "Live" :: Editor
 
 The big new feature is: ```“Live::Editor” works together with you on your *running* Axmol game```!
 
