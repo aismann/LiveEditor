@@ -1,11 +1,10 @@
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=aismann">
 
 ![image](https://github.com/user-attachments/assets/c3e64d44-5fc3-436c-92fc-9188189bf805)
 
-# Live::Editor  @@@  under construction @@@
-The world's first(*) "Live" :: Editor     
+# The world's first(*) "Live" :: Editor
 
-The big new feature is:
-“Live::Editor” works together with you on your running Axmol game!
+The big new feature is: ```“Live::Editor” works together with you on your *running* Axmol game```!
 
 The interaction with your game is permanent and you be at the same time:
 
@@ -14,56 +13,26 @@ The interaction with your game is permanent and you be at the same time:
 - Designer (Game-/Level-/UI)
 - Developer
 
-In a word:
+Realising games in minutes will be possible.
+
+## In a word:
 
 You be the **Winner** using “Live::Editor” writing your next game!
 
-Realising games in minutes will be possible.
+For what standing the **::** ?
 
-For what standing the :: ?
+Thats the "Logo" of the Live::Editor and stand also as :place holder: for something like: 
 
-Thats the place holder for something like: 
-
-- :Scene:,
-- :Sprite:,
-- :PhysicsSprite:,
+- :Scene:
+- :Sprite:
+- :PhysicsSprite:
 - :etc:
   
 So it can also called: 
 
-- LiveSceneEditor,
-- LiveSpriteEditor,
-- LivePhysicsSpriteEditor,
-- etc.
+- LiveSceneEditor
+- LiveSpriteEditor
+- LivePhysicsSpriteEditor
+- etc
 
 (*) as far as I'm know ;)
-
-
-
-### How to add Live::Editor to your project
-
-
-#if defined(AX_PLATFORM_PC) || (AX_TARGET_PLATFORM == AX_PLATFORM_ANDROID) || defined(__EMSCRIPTEN__)
-#    include "LiveEditor/LiveEditor.h"
-#endif
-
-
-void <yourscene>::onEnter()
-{
-    Scene::onEnter();
-
-#if defined(AX_PLATFORM_PC) || (AX_TARGET_PLATFORM == AX_PLATFORM_ANDROID) || defined(__EMSCRIPTEN__)
-    extension::LiveEditor::getInstance()->startPoint(this);
-#endif
-}
-
-
-
-void <yourscene>::onExit()
-{
-#if defined(AX_PLATFORM_PC) || (AX_TARGET_PLATFORM == AX_PLATFORM_ANDROID) || defined(__EMSCRIPTEN__)
-    extension::LiveEditor::getInstance()->close();
-#endif
-    Scene::onExit();
-}
-
